@@ -42,10 +42,14 @@
                     ?>
                     <tr>
                       <td>1</td>
-                      <td><?php echo $kode; ?></td>
+                      <td><?php echo $kode; ?>
+                        <input type="hidden" name="kode" value="<?php echo $kode; ?>">
+                      </td>
                       <td><?php echo $lokasi; ?></td>
                       <td><?php echo $jenis; ?></td>
-                      <td><?php echo $_SESSION['nama']; ?></td>
+                      <td><?php echo $_SESSION['nama']; ?>
+                        <input type="hidden" name="nama" value="<?php echo $_SESSION['nama']; ?>">
+                      </td>
                       <td><?php echo date("d/m/Y") ?>
                         <input type="hidden" name="tanggal" value="<?php echo date("d/m/Y") ?>">
                       </td>
