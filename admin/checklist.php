@@ -29,6 +29,7 @@
                     <form method="post" action="prosesInspeksi.php">
                     <?php
                     include "data/koneksi.php";
+                    session_start();
                     $id = $_REQUEST['id'];
                     $apar = "SELECT * FROM `apar` where kode = '$id'";
                     $result      = mysqli_query($connect,$apar);
@@ -44,6 +45,7 @@
                       <td>1</td>
                       <td><?php echo $kode; ?>
                         <input type="hidden" name="kode" value="<?php echo $kode; ?>">
+                        <input type="hidden" name="id_inspektor" value="<?php echo $_SESSION['id']; ?>">
                       </td>
                       <td><?php echo $lokasi; ?></td>
                       <td><?php echo $jenis; ?></td>
