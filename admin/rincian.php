@@ -125,29 +125,29 @@ include "sidebar.php";
                         <ul>
                           <?php if($c == 0){
                             echo "<li>Tabung APAR tidak berwarna merah</li>";
-                          } else if($d == 0) {
+                          } if($d == 0) {
                             echo "<li>Tabung APAR dalam kondisi tidak baik (Berkarat)</li>";
-                          } else if($e == 0) {
+                          } if($e == 0) {
                             echo "<li>Suhu ruangan melebihi atau kurang dari 49 derajat celcius</li>";
-                          } else if($f == 0) {
+                          } if($f == 0) {
                             echo "<li>Isi tabung tidak sesuai dengan berat yang telah ditentukan</li>";
-                          } else if($g == 0) {
+                          } if($g == 0) {
                             echo "<li>Cartridge dalam kondisi tidak boiler</li>";
-                          } else if($h == 0) {
+                          } if($h == 0) {
                             echo "<li>Mulut pancar tersumbat</li>";
-                          } else if($i == 0) {
+                          } if($i == 0) {
                             echo "<li>Pipa pancar tidak dalam kondisi baik</li>";
-                          } else if($j == 0) {
+                          } if($j == 0) {
                             echo "<li>Handel dan label tidak dalam kondisi baik</li>";
-                          } else if($k == 0) {
+                          } if($k == 0) {
                             echo "<li>Posisi APAR tidak mudah dilihat dan tidak mudah dicapai</li>";
-                          } else if($l == 0) {
+                          } if($l == 0) {
                             echo "<li>Penempatan APAR tidak sesuai dengan jenis dan penggolongan kelas kebakaran</li>";
-                          } else if($a == 0) {
+                          } if($a == 0) {
                             echo "<li>APAR ditempatkan tidak menggantung pada dinding dengan konstruksi penguat atau di dalam box yang tidak terkunci</li>";
-                          } else if($b == 0) {
+                          } if($b == 0) {
                             echo "<li>APAR tidak dilengkapi dengan tanda yaitu 125 cm dari dasar lantai</li>";
-                          } else {
+                          } if($baik == 12) {
                             echo "<li>Tidak Ada Kerusakan</li>";
                           }
                           ?>
