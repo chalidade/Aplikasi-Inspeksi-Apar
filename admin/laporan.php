@@ -49,7 +49,7 @@
                     <tr>
                       <td><?php echo $no; ?></td>
                       <?php if($status == 1) { ?>
-                      <td><a href="#"><?php echo $kode; ?></a></td>
+                      <td><a href="rincian.php?kode=<?php echo $kode; ?>"><?php echo $kode; ?></a></td>
                       <?php } else { ?>
                       <td><a href="checklist.php?id=<?php echo $kode; ?>"><?php echo $kode; ?></a></td>
                       <?php } ?>

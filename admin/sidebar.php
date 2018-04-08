@@ -37,7 +37,7 @@ $id = $_REQUEST['id'];
         <?php } ?>
 
         <li><a href="images/permen.pdf" class=""><i class="lnr lnr-file-empty"></i> <span>Peraturan</span></a></li>
-        <li><a href="../logout.php" class=""><i class="lnr lnr-arrow-left-circle"></i> <span>Logout</span></a></li>
+        <li><a href="logout.php" class=""><i class="lnr lnr-arrow-left-circle"></i> <span>Logout</span></a></li>
       </ul>
     </nav>
   </div>
